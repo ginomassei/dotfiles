@@ -1,0 +1,25 @@
+[font]
+size = 14
+offset = { x = 0, y = 2 }
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+
+[window]
+opacity = 0.99
+# decorations = "none"
+
+[window.padding]
+x = 5
+y = 5
+
+[scrolling]
+history = 10000
+
+[keyboard]
+bindings = [
+{ key= 'PageUp',  action= 'ScrollLineUp' },
+{ key= 'PageDown', action= 'ScrollLineDown' }
+]
+
+
